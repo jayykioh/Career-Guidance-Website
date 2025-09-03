@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>MajorDetailController</servlet-name>
+        <servlet-class>Controller.MajorDetailController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RiasecTestServlet</servlet-name>
+        <servlet-class>Controller.RiasecTestServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestHistoryServlet</servlet-name>
+        <servlet-class>Controller.TestHistoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MajorDetailController</servlet-name>
+        <url-pattern>/MajorDetailController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RiasecTestServlet</servlet-name>
+        <url-pattern>/riasec-test</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestHistoryServlet</servlet-name>
+        <url-pattern>/test-history</url-pattern>
+        
+        
+        
+    </servlet-mapping>
+      <servlet>
+        <servlet-name>ajaxServlet</servlet-name>
+        <servlet-class>Controller.ajaxServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ajaxServlet</servlet-name>
+        <url-pattern>/payment</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+<!--      </servlet-mapping>
+      <servlet>
+        <servlet-name>vnpayQuery</servlet-name>
+        <servlet-class>Controller.vnpayQuery</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>vnpayQueryt</servlet-name>
+        <url-pattern>/vnpayQuery</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+      </servlet-mapping>
+      <servlet>
+        <servlet-name>vnpayRefund</servlet-name>
+        <servlet-class>Controller.vnpayRefund</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>vnpayRefund</servlet-name>
+        <url-pattern>/vnpayRefund</url-pattern>
+    </servlet-mapping>
+    -->
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>landingpage.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

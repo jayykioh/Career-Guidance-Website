@@ -1,0 +1,23 @@
+# Build
+target/
+out/
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+.classpath
+.project
+.settings/
+
+# Logs & archives
+*.log
+*.zip
+*.jar
+*.war
+
+# Secrets
+.env
+*.env
