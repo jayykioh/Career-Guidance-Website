@@ -32,8 +32,16 @@ The system combines **real university & major references (2024+)**, an **AI chat
 
 **Note:** This project is developed as a capstone coursework.  
 The focus is on mastering fundamental Java web development concepts efficiently, rather than adopting modern frameworks.
+
+
 ## Preview
 
-![Screenshot 1](https://github.com/user-attachments/assets/78ca1b5e-440f-4089-8ea8-cd55ba01ecd7)
+### Full Page Screenshot
+<img src="https://github.com/user-attachments/assets/7b61593b-8248-4198-91de-e8a629c16765" alt="Full Page Screenshot" width="800"/>
 
-![Screenshot 2](https://github.com/user-attachments/assets/e24c6d33-de72-4455-8848-93006db5da01)
+### App Screens
+<img src="https://github.com/user-attachments/assets/89c0f3a3-a353-4e7d-b896-ea5951ddb72d" alt="App Screenshot 1" width="600"/>
+<img src="https://github.com/user-attachments/assets/48af5230-2464-4469-9f40-17d050c3c589" alt="App Screenshot 2" width="600"/>
+
+## and more features.....
+
